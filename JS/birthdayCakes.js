@@ -1,21 +1,18 @@
 
 
-let article1 = document.getElementById("birthdayCakeImg")
+
 let section1 = document.getElementById("birthdayCakeContainer")
 
 
 for (let i = 0; i < products.length; i++) {
 
     if (products[i].category == "עוגות ימי הולדת") {
-        
-            
-        
-
-            article1.innerHTML += `<img src="${products[i].images}"id="birthday"> name:${products[i].name} price:${products[i].price} <button class="add">ADD</button>`
-        
+        section1.innerHTML += `<article id ="birthdayCakeImg"> <img src="${products[i].images}"id="birthday"> name:${products[i].name} price:${products[i].price} <button class="add">ADD</button> </article>`
+    
     }
 
 }
+let article1 = document.getElementById("birthdayCakeImg")
 
 let addBtn = document.getElementsByClassName("add")
 
