@@ -1,0 +1,79 @@
+body{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.356),brown) ;
+     background-size:cover;
+    background-repeat: no-repeat;
+   
+     
+}
+#navbar{
+   
+    height: 60px;
+    background-image: url("../images/images.jpg") ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list1:hover{
+    transition: 1s;
+    font-size: 35px;
+}
+
+#shoppingCart{
+    width:50px;
+    height:50px;
+
+
+}
+#shoppingCart:hover{
+    transition: 1s;
+    width:60px;
+    height:60px;
+
+}
+
+#birthday{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 100px;
+}
+#birthday:hover{
+    transition: 1s;
+    width: 250px;
+    height: 250px;
+    box-shadow: 4px 4px 4px;
+}
+.add{
+    background-color: black;
+    color:coral;
+    
+
+}
+.remove{
+    background-color: black;
+    color:coral;
+
+}
+#titleBD{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: brown;
+}
+#titleWc{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}

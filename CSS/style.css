@@ -1,0 +1,127 @@
+body{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.356),brown) ;
+     background-size:cover;
+    background-repeat: no-repeat;
+   
+   
+     
+}
+#navbar{
+   
+    height: 60px;
+    background-image: url("../images/images.jpg") ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: brown;
+}
+
+
+#shoppingCart{
+    width:50px;
+    height:50px;
+
+
+}
+#shoppingCart:hover{
+    transition: 1s;
+    width:60px;
+    height:60px;
+
+}
+
+
+
+
+.list1:hover{
+    transition-duration: 1s;
+    font-size: 35px;
+}
+.homeimg {
+    width: 200px;
+    height: 200px;
+    border-radius:200px;
+}
+#homePageSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+ 
+}
+.homePageArticle{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top: 100px;
+  
+
+}
+.homeimg:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px white;
+    width: 250px;
+    height: 250px;
+    
+    
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 350px;
+    height: 100px;
+}
+h3{
+    text-align: center;
+  
+
+}
+#footerList1{
+    list-style: none;
+    display: flex;
+    flex-direction: column ;
+}
+.SocialNetworks{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#footerList2{
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+    
+}
+#footerList3{
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+

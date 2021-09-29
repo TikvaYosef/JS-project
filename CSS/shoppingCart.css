@@ -1,0 +1,66 @@
+body{
+background-color:grey;   
+}
+
+table{
+margin-left: 350px;
+margin-top: 50px;
+    width: 500px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black; 
+} 
+
+ 
+table,th,td{
+    border: 2px solid black
+} 
+
+#pics{
+    width: 200px;
+    height:200px;
+}
+#para{
+    margin-left: 550px;
+    width: 100px;
+    height: 50px;
+    background-color:grey;
+    color: black;
+    font-weight: bold;
+}
+#btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 550px;
+    height: 50px;
+    
+}
+
+
+
+#navbar{
+   
+    height: 60px;
+    background-image: url("../images/images.jpg") ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list1:hover{
+    transition: 1s;
+    font-size: 35px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: brown;
+}
+   
+
